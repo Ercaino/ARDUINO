@@ -15,6 +15,7 @@
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
+#include <SoftwareSerial.h>
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
@@ -52,7 +53,7 @@ void myTimerEvent()
 
 void setup()
 {
-  // Debug console
+  // Debug console Serial.begin(9600);
   Serial.begin(115200);
 
   Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
