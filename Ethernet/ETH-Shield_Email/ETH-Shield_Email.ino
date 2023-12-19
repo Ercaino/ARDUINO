@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
-char server[] = "www.zeppelinmaker.it"; 
+char server[] = "www.name.it"; 
 
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x0E, 0x00, 0x00 };
 IPAddress ip(192, 168, 1, 100);
