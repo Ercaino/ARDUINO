@@ -10,7 +10,7 @@
 SimpleDHT11 dht11;
 
 // Pin data DHT11
-#define DHTPIN 2
+#define DHTPIN 8
 
 void setup() {
   // Serial
